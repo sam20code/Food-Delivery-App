@@ -1,5 +1,7 @@
 # Food-Delivery-App
 DeliciousBites: A Dynamic Food Delivery App using Django
+---
+#Tech Stack: Python, Django, HTML, CSS, BOOTSTRAP
 
 ---
 **Introduction:**
