@@ -1,0 +1,42 @@
+{% extends 'food/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% block body%}
+    <div style="background: linear-gradient(red,maroon, black)">
+    {% for item in item_list %}
+    <div class="row">
+        <div class="col-md-3 offset-md-2">
+            <img class="card" style="width:250px" src="{{item.item_image.url}}"/>
+        </div>
+        <div class="col-md-4">
+            <h2 style="color: beige;">{{item.item_name}}</h3>
+            <p style="color: beige">{{item.item_desc}}</p>
+            <h6 style="color: beige">₹ {{item.item_price}}</h5>
+            <hr>
+        </div>
+        <div class="col-md-3" style="margin-top: 3%;">
+            <a href="{%url 'food:details' item.id%}" class="btn btn-success">Details</a>
+            <a href="{%url 'food:editItem' item.id%}" class="btn btn-success">Update</a>
+        </div>
+    </div>
+    
+    <!-- <ul>
+        <li>
+            
+            <a href="{%url 'food:details' item.id%}">{{item.item_name }}--{{item.item_price}}</a>
+        </li>
+    </ul> -->
+    
+
+{% endfor %}
+</div>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,22 @@
+{% extends 'food/userNavBar.html' %}
+{% block body %}
+<div style="background: linear-gradient(red,maroon, black);height:100vh">
+<div class="row" >
+    <div class="col-md-2" style="margin-left:5%;margin-top:2% ;">
+        <img class="card" style="width:500px" src="{{item.item_image.url}}"/>
+    </div>
+    <div class="col-md-4" style="margin-top: 2%;margin-left: 20%;">
+        <h2 style="color: beige;">{{item.item_name}}</h3>
+        <p style="color: beige">{{item.item_desc}}</p>
+        <h6 style="color: beige">₹ {{item.item_price}}</h5>
+        <p style="color: beige">!! {{item.item_discountOffer}}% off !!</p>
+        <p style="color: beige">Shop Name: {{item.item_shopName}}</p>
+        <p style="color: beige">Address: {{item.item_shopAddress}}</p>
+            <div>
+                <a href="#" class="btn btn-success">Add to cart</a>
+            </div>
+        
+    </div>
+</div>
+</div>
+{% endblock %}
