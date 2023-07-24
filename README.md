@@ -4,6 +4,14 @@ DeliciousBites: A Dynamic Food Delivery App using Django
 ### Tech Stack: Python, Django, HTML, CSS, BOOTSTRAP
 
 ---
+## How to run the project
+- Clone the files -> in cmd go to directory storing the project then execute -> ` python manage.py runserver `
+- Go to window -> ` http://localhost:8000/food/ ` will land you to Main Page
+- Choose option as user or admin
+- If user chooses admin then he/she need to first enter some items inorder to see the entries for their record. 
+
+` rest you the experience !! ` 
+
 ## **Introduction:**
 - In this project, we developed a dynamic and user-friendly food delivery application using Python and the Django framework. The app offers two distinct user roles, namely, an admin with additional privileges to manage food items and users who can view and purchase food items. We implemented various functionalities, including user authentication, adding, updating, and deleting food items, implementing a shopping cart, and handling static files and media contents.
 ---
