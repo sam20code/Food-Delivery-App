@@ -1,8 +1,6 @@
 # Food-Delivery-App
-DeliciousBites: A Dynamic Food Delivery App using Django
----
+A Dynamic Food Delivery App using Django
 ### Tech Stack: Python, Django, HTML, CSS, BOOTSTRAP
-
 ---
 ## How to run the project
 - Clone the files -> in cmd go to directory storing the project then execute -> ` python manage.py runserver `
