@@ -1,5 +1,5 @@
 # Food-Delivery-App
-A Python Django restfull Food Delivery Application Implementing `CRUD` operation,`user login authentication` operation
+A Python Django restful Food Delivery Application Implementing `CRUD` operation,`user login authentication` operation
 
 ---
 ### Tech Stack: Python, Django, HTML, CSS, BOOTSTRAP
