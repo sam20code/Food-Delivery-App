@@ -10,8 +10,6 @@ A Python Django restfull Food Delivery Application Implementing `CRUD` operation
 - Choose option as user or admin
 - If user chooses admin then he/she need to first enter some items inorder to see the entries for their record. 
 
-` rest you the experience !! ` 
-
 ## **Introduction:**
 - In this project, we developed a dynamic and user-friendly food delivery application using Python and the Django framework. The app offers two distinct user roles, namely, an admin with additional privileges to manage food items and users who can view and purchase food items. We implemented various functionalities, including user authentication, adding, updating, and deleting food items, implementing a shopping cart, and handling static files and media contents.
 ---
