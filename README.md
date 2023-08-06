@@ -1,7 +1,9 @@
 # Food-Delivery-App
-A Dynamic Food Delivery App using Django
-### Tech Stack: Python, Django, HTML, CSS, BOOTSTRAP
+A Python Django restfull Food Delivery Application Implementing `CRUD` operation,`user login authentication` operation
+
 ---
+### Tech Stack: Python, Django, HTML, CSS, BOOTSTRAP
+--- 
 ## How to run the project
 - Clone the files -> in cmd go to directory storing the project then execute -> ` python manage.py runserver `
 - Go to window -> ` http://localhost:8000/food/ ` will land you to Main Page
